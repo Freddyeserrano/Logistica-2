@@ -1,0 +1,27 @@
+GAMS 28.2.0  r750fa45 Released Aug 19, 2019 LEX-LEG x86 64bit/Linux - 11/13/22 22:29:23 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   1  csv2gdx distancias.csv
+****        $140           $36
+****  36  '=' or '..' or ':=' or '$=' operator expected
+****      rest of statement ignored
+**** 140  Unknown symbol
+
+**** 2 ERROR(S)   0 WARNING(S)
+
+
+COMPILATION TIME     =        0.001 SECONDS      2 MB  28.2.0 r750fa45 LEX-LEG
+
+
+USER: GAMS Development Corporation, USA              G871201/0000CA-ANY
+      Free Demo, +1 202-342-0180, support@gams.com, www.gams.com DC0000
+
+
+**** FILE SUMMARY
+
+Input      /home/juana/Documents/work/Sabana/final_logistica/files.gms
+Output     /home/juana/Documents/work/Sabana/final_logistica/files.lst
+
+**** USER ERROR(S) ENCOUNTERED
