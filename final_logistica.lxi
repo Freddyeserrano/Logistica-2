@@ -6,18 +6,17 @@ I 423 b
 I 431 a
 B 439 Equation Listing    SOLVE CVRP Using MIP From line 187
 D 442 target_function
-D 4383 demand_capa_constraint
-D 4412 depot_constraint
-D 4417 customer_vehicle_constraint
-D 4428 node_after_constraint
-D 4463 node_before_constraint
-D 4498 subtour_elimination_constraint
-D 4509 subtour_elimination_constraint2
-D 4520 subtour_elimination_constraint3
-B 4532 Column Listing      SOLVE CVRP Using MIP From line 187
-E 4535 x
-E 12360 y
-E 12382 u
-E 3322271 v
-E 6631980 z
-B 6631988 Model Statistics    SOLVE CVRP Using MIP From line 187
+D 4383 demand_capa_constr
+D 4412 depot_constr
+D 4417 cust_vehicle_constr
+D 4428 node_after_constr
+D 4460 node_before_const
+D 4492 subtour_elimination_constr
+D 4503 lower_bound_subtour_constr
+D 4514 upper_bound_subtour_constr
+B 4526 Column Listing      SOLVE CVRP Using MIP From line 187
+E 4529 x
+E 4551 y
+E 4573 u
+E 4592 Z
+B 4604 Model Statistics    SOLVE CVRP Using MIP From line 187

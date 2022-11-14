@@ -1,4 +1,4 @@
---- Job final_logistica.gms Start 11/14/22 10:34:57 28.2.0 r750fa45 LEX-LEG x86 64bit/Linux
+--- Job final_logistica.gms Start 11/14/22 10:41:47 28.2.0 r750fa45 LEX-LEG x86 64bit/Linux
 --- GAMS Parameters defined
     Input /home/juana/Documents/work/Sabana/final_logistica/final_logistica.gms
     PageSize 0
@@ -14,22 +14,445 @@ Licensee: GAMS Development Corporation, USA              G871201/0000CA-ANY
           Free Demo, +1 202-342-0180, support@gams.com, www.gams.com DC0000
 --- Starting compilation
 --- final_logistica.gms(18) 3 Mb
---- . distancias.csv(1) 3 Mb 1 Error
-*** Error 170 in /home/juana/Documents/work/Sabana/final_logistica/distancias.csv
-    Domain violation for element
---- . distancias.csv(2) 3 Mb 2 Errors
-*** Error   1 in /home/juana/Documents/work/Sabana/final_logistica/distancias.csv
-    Real number expected
 --- . distancias.csv(53) 3 Mb
 --- final_logistica.gms(27) 3 Mb
 --- . familias_atendidas.csv(51) 3 Mb
 --- final_logistica.gms(35) 3 Mb
 --- . camiones.csv(8) 3 Mb
---- final_logistica.gms(75) 3 Mb 4 Errors
-*** Error 257 in /home/juana/Documents/work/Sabana/final_logistica/final_logistica.gms
-    Solve statement not checked because of previous errors
-*** Error 299 in /home/juana/Documents/work/Sabana/final_logistica/final_logistica.gms
-    Unexpected end of file
---- final_logistica.gms(75) 3 Mb 4 Errors
-*** Status: Compilation error(s)
---- Job final_logistica.gms Stop 11/14/22 10:34:57 elapsed 0:00:00.004
+--- final_logistica.gms(75) 3 Mb
+--- Starting execution: elapsed 0:00:00.002
+--- final_logistica.gms(151) 4 Mb
+--- Generating MIP model CVRP
+--- final_logistica.gms(181) 82 Mb
+--- final_logistica.gms(181) 114 Mb
+--- final_logistica.gms(181) 239 Mb
+--- final_logistica.gms(181) 269 Mb
+--- final_logistica.gms(181) 395 Mb
+--- final_logistica.gms(181) 421 Mb
+--- final_logistica.gms(181) 540 Mb
+--- final_logistica.gms(181) 567 Mb
+--- final_logistica.gms(181) 684 Mb
+--- final_logistica.gms(181) 714 Mb
+--- final_logistica.gms(181) 836 Mb
+--- final_logistica.gms(181) 865 Mb
+--- final_logistica.gms(181) 987 Mb
+--- final_logistica.gms(181) 1013 Mb
+--- final_logistica.gms(181) 1133 Mb
+--- final_logistica.gms(181) 1161 Mb
+--- final_logistica.gms(181) 1281 Mb
+--- final_logistica.gms(181) 1306 Mb
+--- final_logistica.gms(181) 1429 Mb
+--- final_logistica.gms(181) 1458 Mb
+--- final_logistica.gms(181) 1578 Mb
+--- final_logistica.gms(181) 1603 Mb
+--- final_logistica.gms(181) 1724 Mb
+--- final_logistica.gms(181) 1752 Mb
+--- final_logistica.gms(181) 1871 Mb
+--- final_logistica.gms(181) 1898 Mb  3 secs
+--- final_logistica.gms(181) 2020 Mb  3 secs
+--- final_logistica.gms(181) 2048 Mb  3 secs
+--- final_logistica.gms(181) 2169 Mb  3 secs
+--- final_logistica.gms(181) 2198 Mb  3 secs
+--- final_logistica.gms(181) 2321 Mb  3 secs
+--- final_logistica.gms(181) 2352 Mb  3 secs
+--- final_logistica.gms(181) 2476 Mb  3 secs
+--- final_logistica.gms(181) 2507 Mb  4 secs
+--- final_logistica.gms(181) 2625 Mb  4 secs
+--- final_logistica.gms(181) 2648 Mb  4 secs
+--- final_logistica.gms(181) 2764 Mb  4 secs
+--- final_logistica.gms(181) 2792 Mb  4 secs
+--- final_logistica.gms(181) 2915 Mb  4 secs
+--- final_logistica.gms(181) 2943 Mb  4 secs
+--- final_logistica.gms(181) 3068 Mb  4 secs
+--- final_logistica.gms(181) 3098 Mb  5 secs
+--- final_logistica.gms(181) 3222 Mb  5 secs
+--- final_logistica.gms(181) 3253 Mb  5 secs
+--- final_logistica.gms(181) 3373 Mb  5 secs
+--- final_logistica.gms(181) 3399 Mb  5 secs
+--- final_logistica.gms(181) 3517 Mb  5 secs
+--- final_logistica.gms(181) 3542 Mb  5 secs
+--- final_logistica.gms(181) 3662 Mb  5 secs
+--- final_logistica.gms(181) 3689 Mb  6 secs
+--- final_logistica.gms(181) 3809 Mb  6 secs
+--- final_logistica.gms(181) 3836 Mb  6 secs
+--- final_logistica.gms(181) 3957 Mb  6 secs
+--- final_logistica.gms(181) 3981 Mb  6 secs
+--- final_logistica.gms(181) 4099 Mb  6 secs
+--- final_logistica.gms(181) 4127 Mb  6 secs
+--- final_logistica.gms(181) 4246 Mb  6 secs
+--- final_logistica.gms(181) 4271 Mb  7 secs
+--- final_logistica.gms(181) 4392 Mb  7 secs
+--- final_logistica.gms(181) 4416 Mb  7 secs
+--- final_logistica.gms(181) 4535 Mb  7 secs
+--- final_logistica.gms(181) 4560 Mb  7 secs
+--- final_logistica.gms(181) 4685 Mb  7 secs
+--- final_logistica.gms(181) 4714 Mb  7 secs
+--- final_logistica.gms(181) 4839 Mb  7 secs
+--- final_logistica.gms(181) 4869 Mb  8 secs
+--- final_logistica.gms(181) 4990 Mb  8 secs
+--- final_logistica.gms(181) 5015 Mb  8 secs
+--- final_logistica.gms(181) 5136 Mb  8 secs
+--- final_logistica.gms(181) 5165 Mb  8 secs
+--- final_logistica.gms(181) 5287 Mb  8 secs
+--- final_logistica.gms(181) 5312 Mb  8 secs
+--- final_logistica.gms(181) 5434 Mb  8 secs
+--- final_logistica.gms(181) 5461 Mb  9 secs
+--- final_logistica.gms(181) 5582 Mb  9 secs
+--- final_logistica.gms(181) 5608 Mb  9 secs
+--- final_logistica.gms(181) 5729 Mb  9 secs
+--- final_logistica.gms(181) 5753 Mb  9 secs
+--- final_logistica.gms(181) 5876 Mb  9 secs
+--- final_logistica.gms(181) 5904 Mb  9 secs
+--- final_logistica.gms(181) 6027 Mb  9 secs
+--- final_logistica.gms(181) 6056 Mb  10 secs
+--- final_logistica.gms(181) 6176 Mb  10 secs
+--- final_logistica.gms(181) 6201 Mb  10 secs
+--- final_logistica.gms(181) 6319 Mb  10 secs
+--- final_logistica.gms(181) 6346 Mb  10 secs
+--- final_logistica.gms(181) 6473 Mb  10 secs
+--- final_logistica.gms(181) 6504 Mb  10 secs
+--- final_logistica.gms(181) 6631 Mb  10 secs
+--- final_logistica.gms(181) 6662 Mb  11 secs
+--- final_logistica.gms(181) 6784 Mb  11 secs
+--- final_logistica.gms(181) 6811 Mb  11 secs
+--- final_logistica.gms(181) 6931 Mb  11 secs
+--- final_logistica.gms(181) 6959 Mb  11 secs
+--- final_logistica.gms(181) 7082 Mb  11 secs
+--- final_logistica.gms(181) 7108 Mb  11 secs
+--- final_logistica.gms(181) 7231 Mb  11 secs
+--- final_logistica.gms(181) 7258 Mb  12 secs
+--- final_logistica.gms(181) 7379 Mb  12 secs
+--- final_logistica.gms(181) 7406 Mb  12 secs
+--- final_logistica.gms(181) 7526 Mb  12 secs
+--- final_logistica.gms(181) 7553 Mb  12 secs
+--- final_logistica.gms(181) 7672 Mb  12 secs
+--- final_logistica.gms(181) 7699 Mb  12 secs
+--- final_logistica.gms(181) 7820 Mb  12 secs
+--- final_logistica.gms(181) 7847 Mb  13 secs
+--- final_logistica.gms(181) 7969 Mb  13 secs
+--- final_logistica.gms(181) 7995 Mb  13 secs
+--- final_logistica.gms(181) 8115 Mb  13 secs
+--- final_logistica.gms(181) 8143 Mb  13 secs
+--- final_logistica.gms(181) 8263 Mb  13 secs
+--- final_logistica.gms(181) 8291 Mb  13 secs
+--- final_logistica.gms(181) 8414 Mb  13 secs
+--- final_logistica.gms(181) 8440 Mb  14 secs
+--- final_logistica.gms(181) 8561 Mb  14 secs
+--- final_logistica.gms(181) 8588 Mb  14 secs
+--- final_logistica.gms(181) 8709 Mb  14 secs
+--- final_logistica.gms(181) 8736 Mb  14 secs
+--- final_logistica.gms(181) 8859 Mb  14 secs
+--- final_logistica.gms(181) 8884 Mb  14 secs
+--- final_logistica.gms(181) 9007 Mb  14 secs
+--- final_logistica.gms(181) 9034 Mb  15 secs
+--- final_logistica.gms(181) 9159 Mb  15 secs
+--- final_logistica.gms(181) 9190 Mb  15 secs
+--- final_logistica.gms(181) 9318 Mb  15 secs
+--- final_logistica.gms(181) 9349 Mb  15 secs
+--- final_logistica.gms(181) 9476 Mb  15 secs
+--- final_logistica.gms(181) 9507 Mb  15 secs
+--- final_logistica.gms(181) 9635 Mb  15 secs
+--- final_logistica.gms(181) 9666 Mb  16 secs
+--- final_logistica.gms(181) 9794 Mb  16 secs
+--- final_logistica.gms(181) 9825 Mb  16 secs
+--- final_logistica.gms(181) 9953 Mb  16 secs
+--- final_logistica.gms(181) 9983 Mb  16 secs
+--- final_logistica.gms(181) 10111 Mb  16 secs
+--- final_logistica.gms(181) 10142 Mb  16 secs
+--- final_logistica.gms(181) 10269 Mb  16 secs
+--- final_logistica.gms(181) 10300 Mb  17 secs
+--- final_logistica.gms(181) 10428 Mb  17 secs
+--- final_logistica.gms(181) 10458 Mb  17 secs
+--- final_logistica.gms(181) 10586 Mb  17 secs
+--- final_logistica.gms(181) 10617 Mb  17 secs
+--- final_logistica.gms(181) 10745 Mb  17 secs
+--- final_logistica.gms(181) 10776 Mb  17 secs
+--- final_logistica.gms(181) 10903 Mb  17 secs
+--- final_logistica.gms(181) 10934 Mb  18 secs
+--- final_logistica.gms(181) 11061 Mb  18 secs
+--- final_logistica.gms(181) 11092 Mb  18 secs
+--- final_logistica.gms(181) 11221 Mb  18 secs
+--- final_logistica.gms(181) 11251 Mb  18 secs
+--- final_logistica.gms(181) 11379 Mb  18 secs
+--- final_logistica.gms(181) 11410 Mb  18 secs
+--- final_logistica.gms(181) 11537 Mb  18 secs
+--- final_logistica.gms(181) 11568 Mb  19 secs
+--- final_logistica.gms(181) 11696 Mb  19 secs
+--- final_logistica.gms(181) 11726 Mb  19 secs
+--- final_logistica.gms(181) 11854 Mb  19 secs
+--- final_logistica.gms(181) 11885 Mb  19 secs
+--- final_logistica.gms(181) 12012 Mb  19 secs
+--- final_logistica.gms(181) 12043 Mb  19 secs
+--- final_logistica.gms(181) 12171 Mb  19 secs
+--- final_logistica.gms(181) 12202 Mb  20 secs
+--- final_logistica.gms(181) 12330 Mb  20 secs
+--- final_logistica.gms(181) 12361 Mb  20 secs
+--- final_logistica.gms(181) 12488 Mb  20 secs
+--- final_logistica.gms(181) 12519 Mb  20 secs
+--- final_logistica.gms(181) 12646 Mb  20 secs
+--- final_logistica.gms(181) 12678 Mb  20 secs
+--- final_logistica.gms(181) 12806 Mb  20 secs
+--- final_logistica.gms(181) 12836 Mb  21 secs
+--- final_logistica.gms(181) 12964 Mb  21 secs
+--- final_logistica.gms(181) 12994 Mb  21 secs
+--- final_logistica.gms(181) 13122 Mb  21 secs
+--- final_logistica.gms(181) 13153 Mb  21 secs
+--- final_logistica.gms(181) 13281 Mb  21 secs
+--- final_logistica.gms(181) 13312 Mb  21 secs
+--- final_logistica.gms(181) 13439 Mb  21 secs
+--- final_logistica.gms(181) 13470 Mb  22 secs
+--- final_logistica.gms(181) 13597 Mb  22 secs
+--- final_logistica.gms(181) 13628 Mb  22 secs
+--- final_logistica.gms(181) 13756 Mb  22 secs
+--- final_logistica.gms(181) 13787 Mb  22 secs
+--- final_logistica.gms(181) 13914 Mb  22 secs
+--- final_logistica.gms(181) 13945 Mb  22 secs
+--- final_logistica.gms(181) 14072 Mb  22 secs
+--- final_logistica.gms(181) 14103 Mb  23 secs
+--- final_logistica.gms(181) 14231 Mb  23 secs
+--- final_logistica.gms(181) 14262 Mb  23 secs
+--- final_logistica.gms(181) 14390 Mb  23 secs
+--- final_logistica.gms(181) 14420 Mb  23 secs
+--- final_logistica.gms(181) 14548 Mb  23 secs
+--- final_logistica.gms(181) 14579 Mb  23 secs
+--- final_logistica.gms(181) 14707 Mb  23 secs
+--- final_logistica.gms(181) 14737 Mb  24 secs
+--- final_logistica.gms(181) 14865 Mb  24 secs
+--- final_logistica.gms(181) 14895 Mb  24 secs
+--- final_logistica.gms(181) 15023 Mb  24 secs
+--- final_logistica.gms(181) 15054 Mb  24 secs
+--- final_logistica.gms(181) 15182 Mb  24 secs
+--- final_logistica.gms(181) 15213 Mb  24 secs
+--- final_logistica.gms(181) 15340 Mb  24 secs
+--- final_logistica.gms(181) 15371 Mb  25 secs
+--- final_logistica.gms(181) 15498 Mb  25 secs
+--- final_logistica.gms(181) 15529 Mb  25 secs
+--- final_logistica.gms(181) 15657 Mb  25 secs
+--- final_logistica.gms(181) 15688 Mb  25 secs
+--- final_logistica.gms(181) 15816 Mb  25 secs
+--- final_logistica.gms(181) 15847 Mb  25 secs
+--- final_logistica.gms(181) 15974 Mb  25 secs
+--- final_logistica.gms(181) 16005 Mb  26 secs
+--- final_logistica.gms(181) 16133 Mb  26 secs
+--- final_logistica.gms(181) 16164 Mb  26 secs
+--- final_logistica.gms(181) 16291 Mb  26 secs
+--- final_logistica.gms(181) 16322 Mb  26 secs
+--- final_logistica.gms(181) 16449 Mb  26 secs
+--- final_logistica.gms(181) 16480 Mb  26 secs
+--- final_logistica.gms(181) 16608 Mb  26 secs
+--- final_logistica.gms(181) 16639 Mb  27 secs
+--- final_logistica.gms(181) 16766 Mb  27 secs
+--- final_logistica.gms(181) 16797 Mb  27 secs
+--- final_logistica.gms(181) 16924 Mb  27 secs
+--- final_logistica.gms(181) 16955 Mb  27 secs
+--- final_logistica.gms(181) 17083 Mb  27 secs
+--- final_logistica.gms(181) 17114 Mb  27 secs
+--- final_logistica.gms(181) 17241 Mb  27 secs
+--- final_logistica.gms(181) 17273 Mb  28 secs
+--- final_logistica.gms(181) 17399 Mb  28 secs
+--- final_logistica.gms(181) 17431 Mb  28 secs
+--- final_logistica.gms(181) 17559 Mb  28 secs
+--- final_logistica.gms(181) 17589 Mb  28 secs
+--- final_logistica.gms(181) 17717 Mb  28 secs
+--- final_logistica.gms(181) 17748 Mb  28 secs
+--- final_logistica.gms(181) 17873 Mb  28 secs
+--- final_logistica.gms(181) 17903 Mb  29 secs
+--- final_logistica.gms(181) 18031 Mb  29 secs
+--- final_logistica.gms(181) 18062 Mb  29 secs
+--- final_logistica.gms(181) 18190 Mb  29 secs
+--- final_logistica.gms(181) 18221 Mb  29 secs
+--- final_logistica.gms(181) 18348 Mb  29 secs
+--- final_logistica.gms(181) 18379 Mb  29 secs
+--- final_logistica.gms(181) 18506 Mb  29 secs
+--- final_logistica.gms(181) 18537 Mb  30 secs
+--- final_logistica.gms(181) 18665 Mb  30 secs
+--- final_logistica.gms(181) 18696 Mb  30 secs
+--- final_logistica.gms(181) 18823 Mb  30 secs
+--- final_logistica.gms(181) 18854 Mb  30 secs
+--- final_logistica.gms(181) 18981 Mb  30 secs
+--- final_logistica.gms(181) 19012 Mb  30 secs
+--- final_logistica.gms(181) 19140 Mb  30 secs
+--- final_logistica.gms(181) 19170 Mb  30 secs
+--- final_logistica.gms(181) 19297 Mb  30 secs
+--- final_logistica.gms(181) 19328 Mb  30 secs
+--- final_logistica.gms(181) 19456 Mb  30 secs
+--- final_logistica.gms(181) 19487 Mb  30 secs
+--- final_logistica.gms(181) 19615 Mb  30 secs
+--- final_logistica.gms(181) 19645 Mb  30 secs
+--- final_logistica.gms(181) 19773 Mb  30 secs
+--- final_logistica.gms(181) 19803 Mb  30 secs
+--- final_logistica.gms(181) 19931 Mb  30 secs
+--- final_logistica.gms(181) 19962 Mb  30 secs
+--- final_logistica.gms(181) 20089 Mb  30 secs
+--- final_logistica.gms(181) 20120 Mb  30 secs
+--- final_logistica.gms(181) 20248 Mb  30 secs
+--- final_logistica.gms(181) 20279 Mb  30 secs
+--- final_logistica.gms(181) 20406 Mb  30 secs
+--- final_logistica.gms(181) 20437 Mb  30 secs
+--- final_logistica.gms(181) 20565 Mb  30 secs
+--- final_logistica.gms(181) 20596 Mb  30 secs
+--- final_logistica.gms(181) 20723 Mb  30 secs
+--- final_logistica.gms(181) 20754 Mb  30 secs
+--- final_logistica.gms(181) 20882 Mb  30 secs
+--- final_logistica.gms(181) 20912 Mb  30 secs
+--- final_logistica.gms(181) 21040 Mb  30 secs
+--- final_logistica.gms(181) 21061 Mb  30 secs
+--- final_logistica.gms(181) 21179 Mb  30 secs
+--- final_logistica.gms(181) 21209 Mb  30 secs
+--- final_logistica.gms(181) 21325 Mb  30 secs
+--- final_logistica.gms(181) 21355 Mb  30 secs
+--- final_logistica.gms(181) 21482 Mb  30 secs
+--- final_logistica.gms(181) 21513 Mb  30 secs
+--- final_logistica.gms(181) 21633 Mb  30 secs
+--- final_logistica.gms(181) 21658 Mb  35 secs
+--- final_logistica.gms(181) 21767 Mb  35 secs
+--- final_logistica.gms(181) 21796 Mb  35 secs
+--- final_logistica.gms(181) 21912 Mb  35 secs
+--- final_logistica.gms(181) 21941 Mb  35 secs
+--- final_logistica.gms(181) 22063 Mb  35 secs
+--- final_logistica.gms(181) 22079 Mb  35 secs
+--- final_logistica.gms(181) 22194 Mb  35 secs
+--- final_logistica.gms(181) 22222 Mb  35 secs
+--- final_logistica.gms(181) 22344 Mb  35 secs
+--- final_logistica.gms(181) 22369 Mb  35 secs
+--- final_logistica.gms(181) 22491 Mb  35 secs
+--- final_logistica.gms(181) 22519 Mb  35 secs
+--- final_logistica.gms(181) 22642 Mb  35 secs
+--- final_logistica.gms(181) 22670 Mb  35 secs
+--- final_logistica.gms(181) 22794 Mb  35 secs
+--- final_logistica.gms(181) 22822 Mb  35 secs
+--- final_logistica.gms(181) 22944 Mb  35 secs
+--- final_logistica.gms(181) 22972 Mb  35 secs
+--- final_logistica.gms(181) 23090 Mb  35 secs
+--- final_logistica.gms(181) 23121 Mb  35 secs
+--- final_logistica.gms(181) 23244 Mb  35 secs
+--- final_logistica.gms(181) 23275 Mb  35 secs
+--- final_logistica.gms(181) 23395 Mb  35 secs
+--- final_logistica.gms(181) 23423 Mb  35 secs
+--- final_logistica.gms(181) 23546 Mb  35 secs
+--- final_logistica.gms(181) 23575 Mb  35 secs
+--- final_logistica.gms(181) 23697 Mb  35 secs
+--- final_logistica.gms(181) 23724 Mb  35 secs
+--- final_logistica.gms(181) 23848 Mb  35 secs
+--- final_logistica.gms(181) 23876 Mb  35 secs
+--- final_logistica.gms(181) 23999 Mb  35 secs
+--- final_logistica.gms(181) 24026 Mb  35 secs
+--- final_logistica.gms(181) 24150 Mb  35 secs
+--- final_logistica.gms(181) 24179 Mb  35 secs
+--- final_logistica.gms(181) 24302 Mb  35 secs
+--- final_logistica.gms(181) 24330 Mb  35 secs
+--- final_logistica.gms(181) 24454 Mb  35 secs
+--- final_logistica.gms(181) 24483 Mb  35 secs
+--- final_logistica.gms(181) 24602 Mb  35 secs
+--- final_logistica.gms(181) 24629 Mb  40 secs
+--- final_logistica.gms(181) 24749 Mb  40 secs
+--- final_logistica.gms(181) 24776 Mb  40 secs
+--- final_logistica.gms(181) 24896 Mb  40 secs
+--- final_logistica.gms(181) 24926 Mb  40 secs
+--- final_logistica.gms(181) 25045 Mb  40 secs
+--- final_logistica.gms(181) 25072 Mb  40 secs
+--- final_logistica.gms(181) 25193 Mb  40 secs
+--- final_logistica.gms(181) 25219 Mb  40 secs
+--- final_logistica.gms(181) 25342 Mb  40 secs
+--- final_logistica.gms(181) 25372 Mb  40 secs
+--- final_logistica.gms(181) 25495 Mb  40 secs
+--- final_logistica.gms(181) 25524 Mb  40 secs
+--- final_logistica.gms(181) 25647 Mb  40 secs
+--- final_logistica.gms(181) 25677 Mb  40 secs
+--- final_logistica.gms(181) 25800 Mb  40 secs
+--- final_logistica.gms(181) 25826 Mb  40 secs
+--- final_logistica.gms(181) 25945 Mb  40 secs
+--- final_logistica.gms(181) 25974 Mb  40 secs
+--- final_logistica.gms(181) 26094 Mb  40 secs
+--- final_logistica.gms(181) 26122 Mb  40 secs
+--- final_logistica.gms(181) 26241 Mb  40 secs
+--- final_logistica.gms(181) 26270 Mb  40 secs
+--- final_logistica.gms(181) 26287 Mb  40 secs
+--- final_logistica.gms(181) 26287 Mb  45 secs
+--- final_logistica.gms(181) 26287 Mb  50 secs
+--- final_logistica.gms(181) 26287 Mb  55 secs
+--- final_logistica.gms(181) 26287 Mb  60 secs
+--- final_logistica.gms(182) 26287 Mb
+--- final_logistica.gms(183) 26287 Mb
+--- final_logistica.gms(183) 26287 Mb  3 secs
+--- final_logistica.gms(183) 26287 Mb  4 secs
+--- final_logistica.gms(183) 26287 Mb  5 secs
+--- final_logistica.gms(183) 26287 Mb  6 secs
+--- final_logistica.gms(183) 26287 Mb  7 secs
+--- final_logistica.gms(183) 26287 Mb  8 secs
+--- final_logistica.gms(183) 26287 Mb  9 secs
+--- final_logistica.gms(183) 26287 Mb  10 secs
+--- final_logistica.gms(183) 26287 Mb  11 secs
+--- final_logistica.gms(183) 26287 Mb  12 secs
+--- final_logistica.gms(183) 26287 Mb  13 secs
+--- final_logistica.gms(183) 26287 Mb  14 secs
+--- final_logistica.gms(183) 26287 Mb  15 secs
+--- final_logistica.gms(183) 26287 Mb  16 secs
+--- final_logistica.gms(183) 26287 Mb  17 secs
+--- final_logistica.gms(183) 26287 Mb  18 secs
+--- final_logistica.gms(183) 26287 Mb  19 secs
+--- final_logistica.gms(183) 26287 Mb  20 secs
+--- final_logistica.gms(183) 26287 Mb  21 secs
+--- final_logistica.gms(183) 26287 Mb  22 secs
+--- final_logistica.gms(183) 26287 Mb  23 secs
+--- final_logistica.gms(183) 26287 Mb  24 secs
+--- final_logistica.gms(183) 26287 Mb  25 secs
+--- final_logistica.gms(183) 26287 Mb  26 secs
+--- final_logistica.gms(187) 26287 Mb
+--- final_logistica.gms(187) 26287 Mb  3 secs
+--- final_logistica.gms(187) 26287 Mb  4 secs
+--- final_logistica.gms(187) 26287 Mb  5 secs
+--- final_logistica.gms(187) 26287 Mb  6 secs
+--- final_logistica.gms(187) 26287 Mb  7 secs
+--- final_logistica.gms(187) 26287 Mb  8 secs
+--- final_logistica.gms(187) 26287 Mb  9 secs
+--- final_logistica.gms(187) 26287 Mb  10 secs
+--- final_logistica.gms(187) 26287 Mb  11 secs
+--- final_logistica.gms(187) 26287 Mb  12 secs
+--- final_logistica.gms(187) 26287 Mb  13 secs
+--- final_logistica.gms(187) 26287 Mb  14 secs
+--- final_logistica.gms(187) 26287 Mb  15 secs
+--- final_logistica.gms(187) 26287 Mb  16 secs
+--- final_logistica.gms(187) 26287 Mb  17 secs
+--- final_logistica.gms(187) 26287 Mb  18 secs
+--- final_logistica.gms(187) 26287 Mb  19 secs
+--- final_logistica.gms(187) 26287 Mb  20 secs
+--- final_logistica.gms(187) 26287 Mb  21 secs
+--- final_logistica.gms(187) 26287 Mb  22 secs
+--- final_logistica.gms(187) 26287 Mb  23 secs
+--- final_logistica.gms(187) 26287 Mb  24 secs
+--- final_logistica.gms(187) 26287 Mb  25 secs
+--- final_logistica.gms(187) 26287 Mb  26 secs
+--- final_logistica.gms(187) 26287 Mb  27 secs
+--- final_logistica.gms(187) 26287 Mb  28 secs
+--- final_logistica.gms(187) 26287 Mb  29 secs
+--- final_logistica.gms(187) 26313 Mb  29 secs
+--- final_logistica.gms(187) 26321 Mb  29 secs
+--- final_logistica.gms(187) 26353 Mb  29 secs
+--- final_logistica.gms(187) 26361 Mb  29 secs
+--- final_logistica.gms(187) 26393 Mb  29 secs
+--- final_logistica.gms(187) 26400 Mb  30 secs
+--- final_logistica.gms(187) 26433 Mb  30 secs
+--- final_logistica.gms(187) 26440 Mb  30 secs
+--- final_logistica.gms(187) 26473 Mb  30 secs
+--- final_logistica.gms(187) 26480 Mb  30 secs
+--- final_logistica.gms(187) 26513 Mb  30 secs
+--- final_logistica.gms(187) 26520 Mb  30 secs
+--- final_logistica.gms(187) 26553 Mb  30 secs
+--- final_logistica.gms(187) 26560 Mb  30 secs
+--- final_logistica.gms(187) 26592 Mb  30 secs
+--- final_logistica.gms(187) 26600 Mb  30 secs
+--- final_logistica.gms(187) 26633 Mb  30 secs
+--- final_logistica.gms(187) 26640 Mb  30 secs
+--- final_logistica.gms(187) 26673 Mb  30 secs
+--- final_logistica.gms(187) 26680 Mb  30 secs
+--- final_logistica.gms(187) 26712 Mb  30 secs
+--- final_logistica.gms(187) 26720 Mb  30 secs
+--- final_logistica.gms(187) 26738 Mb  30 secs
+--- final_logistica.gms(187) 26738 Mb  35 secs
+--- final_logistica.gms(187) 26738 Mb  40 secs
+---   56,268,785 rows  22,151 columns  168,864,109 non-zeroes
+---   22,048 discrete-columns
+*** Status: Terminated due to a licensing error
+***         Inspect listing file for more information
+--- Job final_logistica.gms Stop 11/14/22 10:43:59 elapsed 0:02:11.478

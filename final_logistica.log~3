@@ -1,4 +1,4 @@
---- Job final_logistica.gms Start 11/14/22 10:34:32 28.2.0 r750fa45 LEX-LEG x86 64bit/Linux
+--- Job final_logistica.gms Start 11/14/22 10:38:16 28.2.0 r750fa45 LEX-LEG x86 64bit/Linux
 --- GAMS Parameters defined
     Input /home/juana/Documents/work/Sabana/final_logistica/final_logistica.gms
     PageSize 0
@@ -17,30 +17,16 @@ Licensee: GAMS Development Corporation, USA              G871201/0000CA-ANY
 --- . distancias.csv(1) 3 Mb 1 Error
 *** Error 170 in /home/juana/Documents/work/Sabana/final_logistica/distancias.csv
     Domain violation for element
---- . distancias.csv(2) 3 Mb 2 Errors
-*** Error   1 in /home/juana/Documents/work/Sabana/final_logistica/distancias.csv
-    Real number expected
 --- . distancias.csv(53) 3 Mb
 --- final_logistica.gms(27) 3 Mb
 --- . familias_atendidas.csv(51) 3 Mb
 --- final_logistica.gms(35) 3 Mb
 --- . camiones.csv(8) 3 Mb
---- final_logistica.gms(63) 3 Mb 6 Errors
-*** Error 148 in /home/juana/Documents/work/Sabana/final_logistica/final_logistica.gms
-    Dimension different - The symbol is referenced with more/less
-       indices as declared
-*** Error   8 in /home/juana/Documents/work/Sabana/final_logistica/final_logistica.gms
-    ')' expected
-*** Error 654 in /home/juana/Documents/work/Sabana/final_logistica/final_logistica.gms
-    The right side of an equation cannot be a set expression
-*** Error 409 in /home/juana/Documents/work/Sabana/final_logistica/final_logistica.gms
-    Unrecognizable item - skip to find a new statement
-      looking for a ';' or a key word to get started again
---- final_logistica.gms(75) 3 Mb 8 Errors
+--- final_logistica.gms(75) 3 Mb 3 Errors
 *** Error 257 in /home/juana/Documents/work/Sabana/final_logistica/final_logistica.gms
     Solve statement not checked because of previous errors
 *** Error 299 in /home/juana/Documents/work/Sabana/final_logistica/final_logistica.gms
     Unexpected end of file
---- final_logistica.gms(75) 3 Mb 8 Errors
+--- final_logistica.gms(75) 3 Mb 3 Errors
 *** Status: Compilation error(s)
---- Job final_logistica.gms Stop 11/14/22 10:34:32 elapsed 0:00:00.005
+--- Job final_logistica.gms Stop 11/14/22 10:38:16 elapsed 0:00:00.004

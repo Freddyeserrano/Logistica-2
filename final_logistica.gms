@@ -43,33 +43,33 @@ x(i,j,k) '1 Si el camion k viajo desde el nodo i al nodo j, sino 0'
 y(i,k)  '1 SI el cliente i fue completamente avastesido por el camion k, sino o'
 
 ;
+Integer Variable
+    u(i,k)  'Additional variable for subtour elimination';
+    
 Variables
-u(t)
-v(r)
-z;
-
+    Z      'target value as total sum of transport costs';
 
 Equations
-   target_function                            'target function'
-   demand_capa_constraint(k)                  'demands assigned to a transport vehicle correspond to max. vehicle capacity'
-   depot_constraint(s)                        'tours include depot as start and end'
-   customer_vehicle_constraint(t)             'customer is assigned to exactly one transport vehicle'
-   node_after_constraint(i,k)                 'each node has one node afterwards'
-   node_before_constraint(j,k)                'each node has one node before'
-   subtour_elimination_constraint(r,t,i,j,k)  'avoid subtours without depot'
-   subtour_elimination_constraint2(i,t)       'constraint for subtour elimination'
-   subtour_elimination_constraint3(t,k)       'constraint for subtour elimination';
-   
-target_function..                           Z =e= sum((i,j,k), c(i,j)*x(i,j,k));
-demand_capa_constraint(k)..                 sum(i, b(i)*y(i,k)) =l= a(k);
-depot_constraint(s)..                       M =e= sum(k, y(s,k));
-customer_vehicle_constraint(t)..            sum(k, y(t,k)) =e= 1;
-node_after_constraint(i,k)..                sum(j, x(i,j,k)) =e= y(i,k);
-node_before_constraint(j,k)..               sum(i, x(i,j,k)) =e= y(j,k);
-subtour_elimination_constraint(r,t,i,j,k).. v(r) - u(t) =g= b(j) - a(k) * (1-x(i,j,k));
-subtour_elimination_constraint2(i,t)..      b(i)=l= u(t);
-subtour_elimination_constraint3(t,k)..      u(t)=l= a(k);
+    target_function                     'target function'
+    demand_capa_constr(k)               'demands assigned to a transport vehicle correspond to max. vehicle capacity'
+    depot_constr(i)                     'tours include depot as start and end'
+    cust_vehicle_constr(i)              'customer is assigned to exactly one transport vehicle'
+    node_after_constr(i,k)              'each node has one node afterwards'
+    node_before_const(j,k)              'each node has one node before'
+    subtour_elimination_constr(i,j,k)   'avoid subtours without depot'
+    lower_bound_subtour_constr(i,k)     'lower bound to avoid subtours without depot'   
+    upper_bound_subtour_constr(i,k)     'upper bound to avoid subtours without depot';
+      
+target_function..                                                                                       Z =e= sum((i,j,k), c(i,j)*x(i,j,k));
+demand_capa_constr(k)..                                                                                 sum(i, b(i)*y(i,k)) =l= a(k);
+depot_constr(i)$((ord(i)=1))..                                                                          sum(k, y(i,k)) =e= card(k);
+cust_vehicle_constr(i)$((ord(i)<>1))..                                                                  sum(k, y(i,k)) =e= 1;
+node_after_constr(i,k)..                                                                                sum(j, x(i,j,k)) =e= y(i,k);
+node_before_const(j,k)..                                                                                sum(i, x(i,j,k)) =e= y(j,k);
+subtour_elimination_constr(i,j,k)$(not sameAs(i,j)and(ord(i)<>1)and(ord(j)<>1)and(b(i)+b(j)<=a(k)))..   u(i,k)-u(j,k)+a(k)*x(i,j,k) =l= a(k)-b(j);             
+lower_bound_subtour_constr(i,k)..                                                                       b(i)=l=u(i,k);
+upper_bound_subtour_constr(i,k)..                                                                       u(i,k)=l=a(k) ;
 
 Model CVRP /all/;
 
-Solve CVRP using MIP minimizing Z
+Solve CVRP using MIP minimizing Z;
